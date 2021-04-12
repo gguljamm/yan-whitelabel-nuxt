@@ -1,5 +1,12 @@
 # yanolja-whitelabel-front
 
+## 연결된 도메인
+- /samsungcard
+- /benepia
+- /etbs
+- /bluevery
+- /korail (앱용 헤더 뺀 디자인)
+
 ## Tech Stack
 - Nuxt^2.0.0
 - vuex(상태관리)
