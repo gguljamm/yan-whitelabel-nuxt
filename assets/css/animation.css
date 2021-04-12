@@ -1,0 +1,37 @@
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .3s ease;
+}
+.fade-enter, .fade-leave-to
+  /* .component-fade-leave-active below version 2.1.8 */ {
+  opacity: 0;
+}
+
+
+.rise-enter-active {
+  transition: transform .3s ease;
+}
+.rise-enter
+  /* .component-fade-leave-active below version 2.1.8 */ {
+  transform: translateY(50px);
+}
+
+.slide-bottom-fade-enter-active, .slide-bottom-fade-leave-active{
+  transition: transform .3s ease;
+}
+
+.slide-bottom-fade-enter, .slide-bottom-fade-leave-to{
+  transform: translateY(100%);
+}
+
+.toast-enter-active, .toast-leave-active{
+  transition: .3s ease;
+}
+
+.toast-enter{
+  transform: translateY(50px);
+  opacity: .5;
+}
+
+.toast-leave-to{
+  opacity: 0;
+}

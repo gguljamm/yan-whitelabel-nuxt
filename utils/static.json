@@ -1,0 +1,123 @@
+{
+  "leisure": {
+    "cancelPolicy": {
+      "pageTitle": "국내 레저/티켓 취소 및 환불 규칙 동의",
+      "common": {
+        "title": "공통 규칙"
+      },
+      "cancellableInfo": {
+        "title": "취소 신청"
+      },
+      "refund": {
+        "title": "환불 처리"
+      },
+      "overTime": {
+        "title": "유효기간 경과 상품"
+      },
+      "etc": {
+        "title": "기타 유의사항"
+      }
+    },
+    "ruleUsing": {
+      "pageTitle": "국내 레저/티켓 이용 동의",
+      "title": "이용규칙 동의"
+    },
+    "PInfoCollectionAndUtilization": {
+      "pageTitle": "개인정보 수집 및 이용 동의",
+      "classification": {
+      },
+      "purpose": {
+      },
+      "category": {
+      },
+      "usePeriod": {
+      }
+    },
+    "PInfoInfoToThirdParties": {
+      "pageTitle": "개인정보 제 3자 제공 동의",
+      "receiver": {
+        "title": "제공받는자",
+        "content": ""
+      },
+      "supplyPurpose1": {
+        "title": "제공 목적"
+      },
+      "supplyCategory1": {
+        "title": "제공 항목"
+      },
+      "usePeriod1": {
+        "title": "이용 및 보유기간"
+      },
+      "supplierReceiver": {
+        "title": "개인정보 제공/제공받는 주체",
+        "supplier": {
+          "title": "정보제공자"
+        },
+        "receiver": {
+          "title": "제공받는자",
+          "content": ""
+        }
+      },
+      "supplyPurpose2": {
+        "title": "제공 목적"
+      },
+      "supplyCategory2": {
+        "title": "제공 항목"
+     },
+      "usePeriod2": {
+        "title": "이용 및 보유기간"
+      }
+    }
+  },
+  "place": {
+    "cancelPolicy": {
+      "pageTitle": "국내 숙소 취소 및 환불 규칙 동의",
+      "common": {
+      },
+      "nonCancellableInfo": {
+        },
+      "exceptionInfo": {
+        },
+      "etc": {
+        }
+    },
+    "ruleUsing": {
+      },
+    "PInfoCollectionAndUtilization": {
+      "pageTitle": "개인정보 수집 및 이용 동의",
+      "classification": {
+      },
+      "purpose": {
+      },
+      "category": {
+      },
+      "usePeriod": {
+      }
+    },
+    "PInfoInfoToThirdParties": {
+      "pageTitle": "개인정보 제 3자 제공 동의",
+      "receiver": {
+      },
+      "supplyPurpose1": {
+      },
+      "supplyCategory1": {
+      },
+      "usePeriod1": {
+      },
+      "supplierReceiver": {
+        "title": "개인정보 제공/제공받는 주체",
+        "supplier": {
+        },
+        "receiver": {
+          "content": ""
+        }
+      },
+      "supplyPurpose2": {
+      },
+      "supplyCategory2": {
+      },
+      "usePeriod2": {
+      }
+    }
+  }
+}
