@@ -50,3 +50,11 @@ $ npm run generate
 - [관심사의 분리](https://medium.com/@smartbosslee/%EA%B4%80%EC%8B%AC%EC%82%AC%EC%9D%98-%EB%B6%84%EB%A6%AC-separation-of-concerns-soc-8a8d09df066d)
 - [map, reduce, filter를 유용하게 활용하는 15가지 방법](https://dongmin-jang.medium.com/javascript-15%EA%B0%80%EC%A7%80-%EC%9C%A0%EC%9A%A9%ED%95%9C-map-reduce-filter-bfbc74f0debd)
 
+## 기술 스팩
+- vue/nuxt
+- scss
+- node.js / express
+
+
+## 테스트 사이트
+> 비즈니스 로직/API 등 모두 제거 및 SSR 제거한 테스트 사이트 : https://yan-whitelabel.web.app
