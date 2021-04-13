@@ -38,7 +38,62 @@ export default {
     LayerPopup,
   },
   data() {
-    const channelName = this.$store.state.channelInfo.channelName.replace('dev_', '');
+    const channel = this.$route.path.split('/')[1];
+    const map = {
+      samsungcard: '삼성카드(주)',
+      bluevery: '삼성블루베리몰',
+      etbs: '이제너두(주)',
+      benepia: '베네피아(주)',
+      korail: '한국철도공사',
+    };
+    this.$store.commit('setChannel', {
+      products: ['place', 'leisure'],
+      channelName: channel,
+      name: map[channel],
+      compId: channel,
+      header: ['korail'].indexOf(channel) < 0,
+      discount: {
+        place: [{
+          id: 6,
+          maxDiscountAmount: 2000,
+          minItemPrice: 10000,
+          moneyDiscount: {
+            discountAmount: null,
+            moneyChanalChargePercent: 0,
+          },
+          discountAmount: null,
+          moneyChanalChargePercent: 0,
+          percentDiscount: {
+            discountPercent: 10,
+            percentChanalChargePercent: 50,
+          },
+          discountPercent: 10,
+          policyName: '',
+
+        }],
+        leisure: [
+          {
+            id: 6,
+            maxDiscountAmount: 3000,
+            minItemPrice: 10000,
+            moneyDiscount: {
+              discountAmount: null,
+              moneyChanalChargePercent: 0,
+            },
+            discountAmount: null,
+            moneyChanalChargePercent: 0,
+            percentDiscount: {
+              discountPercent: 10,
+              percentChanalChargePercent: 50,
+            },
+            discountPercent: 10,
+            policyName: '',
+
+          },
+        ],
+      },
+    });
+    const channelName = channel;
     return {
       init: false,
       error: false,
